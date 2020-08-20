@@ -3,13 +3,24 @@ en:
     app_name: "Sample App"
   layouts:
     application:
+      app_title: "Ruby on Rails Tutorial Sample App"
+    header:
       en: "English"
       vi: "Vietnamese"
-      app_title: "Ruby on Rails Tutorial Sample App"
+      home_link: "Home"
+      contact_link: "Contact"
+      about_link: "About"
+      help_link: "Help"
+      login: "Login"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
   static_pages:
     home:
       home_title: "Home"
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      sign_up_now: "Sign Up Now!"
     help:
       help_title: "Help"
       get_help_tutorial: "Get help on the Ruby on Rails Tutorial at the"
@@ -23,3 +34,7 @@ en:
       contact_title: "Contact"
       link_tutorial_sample_app: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "Contact page"
+  users:
+    new:
+      signup: "Sign Up"
+      sign_up_content: "This will be a signup page for new users."

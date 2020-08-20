@@ -1,0 +1,22 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="banner">
+      <div class="wrap_logo">
+        <%= link_to t("global.app_name"), root_path, class: "logo" %>
+      </div>
+      <div class="wrap_locale">
+        <%= link_to t(".en"), locale:"en" %>
+        <%= link_to t(".vi"), locale:"vi" %>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t(".home_link"), root_path %></li>
+        <li><%= link_to t(".help_link"), help_path %></li>
+        <li><%= link_to t(".contact_link"), contact_path %></li>
+        <li><%= link_to t(".about_link"), about_path %></li>
+        <li><%= link_to t(".login"), "#" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
