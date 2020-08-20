@@ -1,4 +1,25 @@
 vi:
+  global:
+    app_name: "Ứng Dụng Mẫu"
   layouts:
     application:
-      title: "Hướng Dẫn Raisl"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+      app_title: "Ứng Dụng Mẫu  Ruby on Rails"
+  static_pages:
+    home:
+      home_title: "Trang Chủ"
+      ruby_on_rails_tutorial: "Hướng dấn Ruby on Rails"
+    help:
+      help_title: "Trợ Giúp"
+      get_help_tutorial: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      get_help_sample_app: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      tutorial_book: "Sách hướng dẫn Ruby on Rails"
+      tutorial_help_page: "Trang hỗ trợ Ruby on Rails"
+    about:
+      about_title: "Giới Thiệu"
+      about_content: "Đây là ứng dụng mẫu cho hướng dấn Ruby on Rails"
+    contact:
+      contact_title: "Liên Hệ"
+      link_tutorial_sample_app: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "Trang liên hệ"
