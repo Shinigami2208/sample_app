@@ -3,13 +3,24 @@ vi:
     app_name: "Ứng Dụng Mẫu"
   layouts:
     application:
+      app_title: "Ứng Dụng Mẫu  Ruby on Rails"
+    header:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
-      app_title: "Ứng Dụng Mẫu  Ruby on Rails"
+      home_link: "Trang Chủ"
+      contact_link: "Liên Hệ"
+      about_link: "Giới Thiệu"
+      help_link: "Trợ Giúp"
+      login: "Đăng Nhập"
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin mới"
   static_pages:
     home:
       home_title: "Trang Chủ"
       ruby_on_rails_tutorial: "Hướng dấn Ruby on Rails"
+      sign_up_now: "Đăng Ký Ngay!"
     help:
       help_title: "Trợ Giúp"
       get_help_tutorial: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
@@ -23,3 +34,7 @@ vi:
       contact_title: "Liên Hệ"
       link_tutorial_sample_app: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       contact_page: "Trang liên hệ"
+  users:
+    new:
+      signup: "Đăng Ký"
+      sign_up_content: "Đây là trang tạo mới User"
