@@ -1,6 +1,9 @@
 vi:
   global:
     app_name: "Ứng Dụng Mẫu"
+    flash_new_user_success: "Chào mừng đến với ứng dụng của chúng tôi!"
+    flash_new_users_danger: "Đăng ký không thành công!"
+    user_not_found: "Không tìm thấy người dùng"
   layouts:
     application:
       app_title: "Ứng Dụng Mẫu  Ruby on Rails"
@@ -38,3 +41,14 @@ vi:
     new:
       signup: "Đăng Ký"
       sign_up_content: "Đây là trang tạo mới User"
+      create_account_now: "Tạo Tài Khoản"
+  shared:
+    _error_message:
+      error: "lỗi"
+      the_form_contain: "Biểu mẫu bao gồm "
+  activerecord:
+    attributes:
+      user:
+        name: "Họ tên"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhật mật khẩu"
