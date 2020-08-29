@@ -4,17 +4,23 @@ vi:
     flash_new_user_success: "Chào mừng đến với ứng dụng của chúng tôi!"
     flash_new_users_danger: "Đăng ký không thành công!"
     user_not_found: "Không tìm thấy người dùng"
+    flash_login_danger: "Email hoặc mật khẩu không đúng!"
   layouts:
     application:
       app_title: "Ứng Dụng Mẫu  Ruby on Rails"
     header:
-      en: "Tiếng Anh"
-      vi: "Tiếng Việt"
+      en: "en"
+      vi: "vi"
       home_link: "Trang Chủ"
       contact_link: "Liên Hệ"
       about_link: "Giới Thiệu"
       help_link: "Trợ Giúp"
       login: "Đăng Nhập"
+      list_users: "Danh Sách Người Dùng"
+      account: "Tài khoản"
+      profile: "Trang cá nhân"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -46,6 +52,13 @@ vi:
     _error_message:
       error: "lỗi"
       the_form_contain: "Biểu mẫu bao gồm "
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user: "Bạn chưa có tài khoản?"
+      sign_up_now: "Đăng ký ngay!"
+      login_title: "Đăng Nhập"
+      password: "Mật khẩu"
   activerecord:
     attributes:
       user:

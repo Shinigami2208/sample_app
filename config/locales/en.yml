@@ -4,17 +4,23 @@ en:
     flash_new_user_success: "Welcome to the Sample App!"
     flash_new_users_danger: "Signup unsuccessful!"
     user_not_found: "User not found"
+    flash_login_danger: "Invalid email/password combination!"
   layouts:
     application:
       app_title: "Ruby on Rails Tutorial Sample App"
     header:
-      en: "English"
-      vi: "Vietnamese"
+      en: "en"
+      vi: "vi"
       home_link: "Home"
       contact_link: "Contact"
       about_link: "About"
       help_link: "Help"
       login: "Login"
+      list_users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      log_out: "Log out"
     footer:
       about: "About"
       contact: "Contact"
@@ -46,6 +52,13 @@ en:
     _error_message:
       error: "error"
       the_form_contain: "The form contain "
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+      login_title: "Login"
+      password: "Password"
   activerecord:
     attributes:
       user:
