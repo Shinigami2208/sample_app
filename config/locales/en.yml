@@ -59,6 +59,7 @@ en:
       sign_up_now: "Sign up now!"
       login_title: "Login"
       password: "Password"
+      checkout_remember_me: "Remember me on this computer!"
   activerecord:
     attributes:
       user:
