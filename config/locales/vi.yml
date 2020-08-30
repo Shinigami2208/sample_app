@@ -5,6 +5,18 @@ vi:
     flash_new_users_danger: "Đăng ký không thành công!"
     user_not_found: "Không tìm thấy người dùng"
     flash_login_danger: "Email hoặc mật khẩu không đúng!"
+    update_success: "Cập nhật thành công!"
+    user_deleted: "Xóa người dùng thành công!"
+    please_log_in: "Bạn cần đăng nhập để thực hiện!"
+    update_unsuccess: "Cập nhật thành công!"
+    delete_unsuccessful: "Xóa thất bại!"
+  views:
+    pagination:
+      first: "« Đầu"
+      last: "Cuối »"
+      previous: "‹"
+      next: "›"
+      truncate: "…"
   layouts:
     application:
       app_title: "Ứng Dụng Mẫu  Ruby on Rails"
@@ -48,6 +60,16 @@ vi:
       signup: "Đăng Ký"
       sign_up_content: "Đây là trang tạo mới User"
       create_account_now: "Tạo Tài Khoản"
+    index:
+      all_users: "Danh sách người dùng"
+    edit:
+      update_your_profile: "Cập nhật thông tin cá nhân"
+      change_avatar: "Thay đổi ảnh đại diện"
+      edit_user: "Sửa thông tin người dùng"
+      save_change: "Lưu thay đổi"
+    user:
+      confirm_delete_user: "Bạn có chắc muốn xóa người dùng này không?"
+      delete: "xóa"
   shared:
     _error_message:
       error: "lỗi"
