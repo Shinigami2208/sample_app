@@ -59,6 +59,7 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       login_title: "Đăng Nhập"
       password: "Mật khẩu"
+      checkout_remember_me: "Nhớ tôi trên thiết bị này!"
   activerecord:
     attributes:
       user:
