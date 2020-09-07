@@ -5,6 +5,18 @@ en:
     flash_new_users_danger: "Signup unsuccessful!"
     user_not_found: "User not found"
     flash_login_danger: "Invalid email/password combination!"
+    update_success: "Updated"
+    user_deleted: "User deleted"
+    please_log_in: "please log in!"
+    update_unsuccess: "Update unsuccessful!"
+    delete_unsuccessful: "Delete unsuccessful!"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹"
+      next: "›"
+      truncate: "…"
   layouts:
     application:
       app_title: "Ruby on Rails Tutorial Sample App"
@@ -48,6 +60,16 @@ en:
       signup: "Sign Up"
       sign_up_content: "This will be a signup page for new users."
       create_account_now: "Create my account"
+    index:
+      all_users: "All Users"
+    edit:
+      update_your_profile: "Update your profile"
+      change_avatar: "Change Avatar"
+      edit_user: "Edit user"
+      save_change: "Save change"
+    user:
+      confirm_delete_user: "You sure?"
+      delete: "delete"
   shared:
     _error_message:
       error: "error"
