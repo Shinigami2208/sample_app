@@ -10,6 +10,10 @@ vi:
     please_log_in: "Bạn cần đăng nhập để thực hiện!"
     update_unsuccess: "Cập nhật thành công!"
     delete_unsuccessful: "Xóa thất bại!"
+    account_activated: "Tài khoản đã được kích hoạt"
+    invalid_activation_link: "Liên kết kích hoạt không hợp lệ!"
+    account_not_activated: "Tài khoản chưa được kích hoạt! Vui lòng truy cập mail của bạn để kích hoạt tài khoản"
+    account_activate: "Kich hoat tai khoan!"
   views:
     pagination:
       first: "« Đầu"
@@ -82,6 +86,12 @@ vi:
       login_title: "Đăng Nhập"
       password: "Mật khẩu"
       checkout_remember_me: "Nhớ tôi trên thiết bị này!"
+  user_mailer:
+    account_activation:
+      sample_app: "Ung dung mau"
+      hi: "Xin Chao"
+      email_content: "Chao mung ban den voi ung dung cua chung toi, vui lon kich vao link duoi day de kich hoat!"
+      activate: "Kich hoat"
   activerecord:
     attributes:
       user:
