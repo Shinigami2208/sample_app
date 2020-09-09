@@ -14,6 +14,12 @@ en:
     invalid_activation_link: "Invalid activation link!"
     account_not_activated: "Account not activated! Please check your email for activate account!"
     account_activate: "Account activate!"
+    password_reset_success: "Password reset successful"
+    password_has_expired: "Password has expired"
+    email_not_found: "Email not found"
+    email_sent_with_password_reset: "Email sent with password reset instructions"
+    password_can_not_be_empty: "Password can't be empty"
+    password_reset: "Password reset"
   views:
     pagination:
       first: "« FIRST"
@@ -86,12 +92,24 @@ en:
       login_title: "Login"
       password: "Password"
       checkout_remember_me: "Remember me on this computer!"
+      forgot_password: "forgot password"
   user_mailer:
     account_activation:
       sample_app: "Sample App"
       hi: "Hi"
       email_content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      title: "Password Reset"
+      reset_password: "Reset password"
+  password_resets:
+    edit:
+      reset_password: "Reset Password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+    new:
+      forgot_password: "Forgot Password"
+      submit: "Submit"
   activerecord:
     attributes:
       user:
