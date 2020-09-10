@@ -5,6 +5,12 @@ validates:
     min_length_password: 10
     VALID_EMAIL_REGEX: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
     image_gravatar_size: 100
+  micropost:
+    max_length_content: 140
+    image_type: "image/jpeg image/gif image/png"
+    image_max: 5
+    size_limit: 500
+
 profile:
   change_email: "https://gravatar.com/emails"
 users:
