@@ -87,6 +87,13 @@ en:
       delete: "delete"
     show:
       microposts: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow : "Unfollow"
+    show_follow:
+      view_my_profile: "View my profile"
+      microposts: "Microposts"
   shared:
     _error_message:
       error: "error"
@@ -97,6 +104,9 @@ en:
     user_info:
       view_my_profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "Following"
+      followers: "Followers"
   sessions:
     new:
       log_in: "Log in"

@@ -54,6 +54,20 @@ class UsersController < ApplicationController
     redirect_to root_url unless current_user.admin?
   end
 
+  def following
+    @title = "Following"
+    @users = @user.following.page(params[:page])
+                  .per Settings.users.user.per_page
+    render :show_follow
+  end
+
+  def followers
+    @title = "Followers"
+    @users = @user.followers.page(params[:page])
+                  .per Settings.users.user.per_page
+    render :show_follow
+  end
+
   private
 
   def user_params
