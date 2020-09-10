@@ -14,6 +14,12 @@ vi:
     invalid_activation_link: "Liên kết kích hoạt không hợp lệ!"
     account_not_activated: "Tài khoản chưa được kích hoạt! Vui lòng truy cập mail của bạn để kích hoạt tài khoản"
     account_activate: "Kich hoat tai khoan!"
+    password_reset_success: "Đặt lại mật khẩu thành công!"
+    password_has_expired: "Hết hạn lien ket dat lai mat khau"
+    email_not_found: "Khong tim thay email"
+    email_sent_with_password_reset: "Email da duoc gui"
+    password_can_not_be_empty: "Mat khau khong the trong"
+    password_reset: "Dat lai mat khau"
   views:
     pagination:
       first: "« Đầu"
@@ -86,12 +92,24 @@ vi:
       login_title: "Đăng Nhập"
       password: "Mật khẩu"
       checkout_remember_me: "Nhớ tôi trên thiết bị này!"
+      forgot_password: "quen mat khau"
   user_mailer:
     account_activation:
       sample_app: "Ung dung mau"
       hi: "Xin Chao"
       email_content: "Chao mung ban den voi ung dung cua chung toi, vui lon kich vao link duoi day de kich hoat!"
       activate: "Kich hoat"
+    password_reset:
+      title: "Dat Lai Mat Khau"
+      reset_password: "Dat lai mat khau"
+  password_resets:
+    edit:
+      reset_password: "Dat Lai Mat Khau"
+      confirmation: "Xac nhan"
+      update_password: "Cap nhat mat khau"
+    new:
+      forgot_password: "Quen mat khau"
+      submit: "Dat lai"
   activerecord:
     attributes:
       user:
