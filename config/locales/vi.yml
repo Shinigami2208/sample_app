@@ -20,6 +20,10 @@ vi:
     email_sent_with_password_reset: "Email da duoc gui"
     password_can_not_be_empty: "Mat khau khong the trong"
     password_reset: "Dat lai mat khau"
+    micropost_deleted: "Xoa thanh cong!"
+    micropost_created: "Tao thanh cong!"
+    valid_image_format: "khong dung dinh dang!"
+    valid_image_size: "phai co kich thuoc nho hon 5MB"
   views:
     pagination:
       first: "« Đầu"
@@ -52,6 +56,7 @@ vi:
       home_title: "Trang Chủ"
       ruby_on_rails_tutorial: "Hướng dấn Ruby on Rails"
       sign_up_now: "Đăng Ký Ngay!"
+      micropost_feed: "Bai dang"
     help:
       help_title: "Trợ Giúp"
       get_help_tutorial: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
@@ -80,10 +85,18 @@ vi:
     user:
       confirm_delete_user: "Bạn có chắc muốn xóa người dùng này không?"
       delete: "xóa"
+    show:
+      microposts: "Bai Dang"
   shared:
     _error_message:
       error: "lỗi"
       the_form_contain: "Biểu mẫu bao gồm "
+    micropost_form:
+      post: "Dang"
+      image_size_validate: "Kich thuoc file khong duoc vuot qua 5MB."
+    user_info:
+      view_my_profile: "xem trang ca nhan"
+      micropost: "bai dang"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -110,9 +123,16 @@ vi:
     new:
       forgot_password: "Quen mat khau"
       submit: "Dat lai"
+  microposts:
+    micropost:
+      you_sure: "Ban co chac khong?"
+      posted: "Bai dang"
+      ago: "truoc"
+      delete: "xoa"
   activerecord:
     attributes:
       user:
         name: "Họ tên"
         password: "Mật khẩu"
         password_confirmation: "Xác nhật mật khẩu"
+
