@@ -87,6 +87,13 @@ vi:
       delete: "xóa"
     show:
       microposts: "Bai Dang"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_my_profile: "Xem trang ca nhan"
+      microposts: "Bài đăng"
   shared:
     _error_message:
       error: "lỗi"
@@ -97,6 +104,9 @@ vi:
     user_info:
       view_my_profile: "xem trang ca nhan"
       micropost: "bai dang"
+    stats:
+      following: "Theo dõi"
+      followers: "Người theo dõi"
   sessions:
     new:
       log_in: "Đăng nhập"

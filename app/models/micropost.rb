@@ -1,7 +1,6 @@
 class Micropost < ApplicationRecord
   belongs_to :user
   has_one_attached :image
-
   validates :user_id, presence: true
   validates :content, presence: true,
             length: {maximum: Settings.validates.micropost.max_length_content}
